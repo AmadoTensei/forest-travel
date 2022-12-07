@@ -306,10 +306,6 @@ ul {
 }
 
 /* Cards */
-.cards-wrapper {
-
-}
-
 .cards-first-row {
 	display: flex;
 	justify-content: space-between;
