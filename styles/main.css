@@ -480,7 +480,9 @@ ul {
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
-
+.article-page-article a {
+	color: #138ECE;
+}
 .article-page-article > *:last-child{
 	margin-bottom: 0;
 }
