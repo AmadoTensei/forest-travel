@@ -57,7 +57,6 @@ label {
 }
 
 .main-header {
-	font-weight: 700;
 	font-size: 54px;
 	color: #31405b;
 }
@@ -304,7 +303,6 @@ ul {
 
 .footer-widget-title {
 	font-size: 24px;
-	font-weight: 700;
 	margin-bottom: 30px;
 }
 
@@ -394,7 +392,6 @@ ul {
 
 .card-title {
 	font-size: 28px;
-	font-weight: 700;
 }
 
 /* Article Page */
@@ -414,7 +411,6 @@ ul {
 .article-page-nav-title {
 	margin-bottom: 34px;
 	font-size: 28px;
-	font-weight: 700;
 	color: #31405B;
 }
 
@@ -530,7 +526,6 @@ ul {
 .contact-block-title {
 	margin-bottom: 20px;
 	font-size: 28px;
-	font-weight: 700;
 }
 
 .contact-block-body {
