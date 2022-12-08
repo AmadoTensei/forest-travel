@@ -27,6 +27,10 @@ label {
 	cursor: pointer;
 }
 
+iframe {
+	border: none;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -140,11 +144,11 @@ ul {
 .header-nav-link {
 	color: #ffffff;
 	text-decoration: none;
+	transition: color 0.5s ease-in;
 }
 
 .header-nav-link:hover {
 	color: rgb(0, 247, 255);
-	transition: color 0.5s ease-in;
 }
 
 .header-content {
@@ -343,11 +347,11 @@ ul {
 	display: block;
 	text-decoration: none;
 	color: #FFFFFF;
+	transition: .3s;
 }
 
 .card-link-wrapper:hover {
 	opacity: 0.8;
-	transition: .3s;
 }
 
 .card {
@@ -533,8 +537,16 @@ ul {
 
 }
 
+.contact-list {
+	line-height: 1.6;
+}
+
 .contact-list li {
 	margin-bottom: 15px;
+}
+
+.contact-list li:last-child {
+	margin: 0;
 }
 
 .contact-list a {
@@ -549,7 +561,7 @@ ul {
 	content: "";
 	display: block;
 	position: absolute;
-	top: 0;
+	top: 5px;
 	left: 0;
 	width: 24px;
 	height: 24px;
@@ -582,6 +594,7 @@ ul {
 }
 
 .form-group {
+	font-size:18px;
 	margin-bottom: 30px;
 }
 
@@ -592,6 +605,7 @@ ul {
 .form-group-title {
 	margin-bottom: 15px;
 	font-size: 20px;
+	font-weight: 700;
 }
 
 .form-group-row {
@@ -639,7 +653,7 @@ ul {
 .custom-radio {
 	width: 20px;
 	height: 20px;
-	margin-right: 10px;
+	margin-right: 15px;
 
 	position: relative;
 	display: inline-block;
@@ -679,7 +693,7 @@ ul {
 .checkbox-row {
 	display: flex;
 	align-items: flex-start;
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 }
 
 .real-checkbox {
@@ -695,7 +709,7 @@ ul {
 	position: relative;
 	display: inline-block;
 	vertical-align: bottom;
-	margin-right: 10px;
+	margin-right: 15px;
 	width: 20px;
 	height: 20px;
 
@@ -725,5 +739,11 @@ ul {
 
 .real-checkbox:focus + .custom-checkbox {
 	box-shadow: 0 0 0 2px #333;
+}
+
+/* Margin checkbox row / radio row */
+
+.radio-row:last-child, .checkbox-row:last-child{
+	margin: 0;
 }
 
