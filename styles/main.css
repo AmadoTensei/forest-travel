@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap');
 
 /*font-family: 'Lobster', cursive;*/
 
@@ -165,7 +165,7 @@ ul {
 	font-size: 24px;
 }
 
-.header-sccroll {
+.header-scroll {
 	padding-bottom: 34px;
 	position: absolute;
 	bottom: 25px;
@@ -178,7 +178,7 @@ ul {
 	color: #ffffff;
 }
 
-.header-sccroll::after {
+.header-scroll::after {
 	content: '';
 	display: block;
 	width: 24px;
