@@ -114,7 +114,6 @@ ul {
 }
 
 .header-title {
-	font-weight: bold;
 	font-size: 60px;
 	margin-bottom: 20px;
 }
@@ -334,6 +333,7 @@ ul {
 
 .card-link-wrapper:hover {
 	opacity: 0.8;
+	transition: .3s;
 }
 
 .card {
@@ -384,6 +384,7 @@ ul {
 /* Article Page */
 
 .row-article-page {
+	padding-top: 10px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -454,14 +455,17 @@ ul {
 }
 
 .article-page-article h2 {
+	margin-top: 27px;
 	font-size: 32px;
 }
 
 .article-page-article h3 {
+	margin-top: 25px;
 	font-size: 26px;
 }
 
 .article-page-article h4 {
+	margin-top: 23px;
 	font-size: 22px;
 }
 
