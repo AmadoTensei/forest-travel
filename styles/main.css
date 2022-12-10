@@ -614,6 +614,10 @@ ul {
 	justify-content: space-between;
 }
 
+.form-group-row:last-child {
+	margin-bottom: 0;
+}
+
 .form-group-row > .input + .input {
 	margin-left: 10px;
 }
@@ -747,3 +751,33 @@ ul {
 	margin: 0;
 }
 
+
+/* Стрница с сылками на наши страницы */
+
+ .ui {
+	padding: 40px;
+ }
+
+ .ui-header {
+	 font-size: 42px;
+	 margin-bottom: 40px;
+ }
+
+ .ui-header-2 {
+	 font-size: 32px;
+	 margin-bottom: 40px;
+ }
+
+ ul.ui-list {
+	 font-size: 18px;
+	 padding-left: 25px;
+ }
+
+ ul.ui-list li {
+	 margin-bottom: 10px;
+	 list-style-type: disc;
+ }
+
+ ul.ui-list a {
+	 color: #138ECE;
+ }
